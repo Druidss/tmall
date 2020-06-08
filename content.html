@@ -7,13 +7,66 @@
 	<script src="https://how2j.cn/study/js/bootstrap/3.3.6/bootstrap.min.js"></script>
 	<title>content</title>
 	<style type="text/css">
-		
+		div.categoryMenu{
+			width: 200px
+			background-color:#c40000;
+			margin-left: 20px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 1;
+		}
+		div.categoryMenu a{
+			color: #000;
+		}
+		div.categoryMenu a:hover{
+			color: lightskyblue;
+			text-decoration: none;
+		}
+		div.productsAsideCategorys{
+			width: 800px;
+			height: 510px;
+			background-color: white;
+			margin-left: 220px;
+			left: 0;
+			top: 0;
+			z-index: 1;
+		}
+		div.productsAsideCategorys div.row{
+			margin: 20px 80px 0px 80px;
+		}
+		div.productsAsideCategorys div.row div.seperator{
+			margin-top: 20px;
+			border-bottom-style: dashed;
+			border-bottom-width: 1px;
+			border-bottom-color: #e7e7e7;
+		}
+		div.productsAsideCategorys a{
+			color: #999;
+			font-size: 14px;
+			margin: 8px;
+		}
+		div.productsAsideCategorys a:hover{
+			color: #c40000;
+			text-decoration: none;
+		}
+		div.eachCategory{
+			line-height: 30px;
+			padding-left: 10px;
+			font-size: 14px;
+		}
+		div.eachCategory span{
+			margin-left: 10px;
+		}
+		div.eachCategory:hover{
+			background-color: white;
+		}
 	</style>
 </head>
 <body>
 	
 
-	<div class="categoryWithCarousel">
+<div class="categoryWithCarousel">
 <div style="position: relative">
 <div class="categoryMenu ">
             <div class="eachCategory" cid="83">
@@ -120,6 +173,7 @@
             </div>
     </div> 
 </div>
+
 <div style="position: relative;left: 0;top: 0;">
     <div class="productsAsideCategorys" cid="83">
             <div class="row ">
@@ -306,7 +360,7 @@
                 <div class="seperator"></div>
             </div>       
     </div>           
-</div>   
+	</div>   
         <div style="height:510"></div>
 </div>
 </body>
